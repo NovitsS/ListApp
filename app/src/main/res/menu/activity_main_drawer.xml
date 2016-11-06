@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_border_color_black_18dp"
+            android:title="添加项目" />
+    </group>
+
+    <item android:title="other function">
+        <menu>
+            <item
+                android:id="@+id/nav_all"
+                android:icon="@android:drawable/sym_def_app_icon"
+                android:title="全部项目" />
+            <item
+                android:id="@+id/nav_finished"
+                android:icon="@android:drawable/sym_def_app_icon"
+                android:title="已完成项目" />
+            <item
+                android:id="@+id/nav_unfinished"
+                android:icon="@android:drawable/sym_def_app_icon"
+                android:title="未完成项目" />
+        </menu>
+    </item>
+
+</menu>
